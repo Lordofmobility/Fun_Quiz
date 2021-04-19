@@ -1,0 +1,54 @@
+<html>
+
+<head>
+    <title>
+        Quiz
+    </title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&display=swap" rel="stylesheet">\
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <center>
+        <h1>Choose the correct options</h1>
+    </center>
+    <center>
+        <div id="questions">
+            <p> What makes more noise when it is dead than when it is alive?</p>
+            <div class="options">
+                <input type="radio" id="leaf" name="option" value="leaf">
+                <label id="op1" for="leaf">Leaf</label>
+            </div>
+            <div class="options">
+                <input type="radio" id="towel" name="option" value="towel">
+                <label id="op2" for="towel"> Towel</label>
+            </div>
+            <div class="options">
+                <input type="radio" id="fruit" name="option" value="fruit">
+                <label id="op3" for="fruit"> Fruit</label>
+            </div>
+            <div class="options">
+                <input type="radio" id="buffalo" name="option" value="buffalo">
+                <label id="op4" for="buffalo"> Buffalo</label>
+            </div>
+            <br>
+        </div>
+        <button id="nextq" onclick="nextquestion()">Next question</button>
+    </center>
+    <script src="main.js"></script>
+    <div class="copy_right_footer"> Developed by Ishan Rangnekar</div>
+</body>
+
+</html>
